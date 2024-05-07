@@ -1,0 +1,172 @@
+body{
+	background-color: lightgray;
+	background-image: url(trainback.jpg);
+	background-size: cover;
+}
+.section1{
+	text-align: center;
+	
+}
+.train{
+	font-family: 'Anton', sans-serif;
+	/*border: 1px solid black;*/
+	width: 600px;
+	padding: 10px;
+	font-size: 50px;
+	margin: auto;
+}
+.parent{
+	position: relative;
+	/*border: 1px solid black;*/
+	height: 700px;
+	 
+}
+
+button{
+	padding: 10px;
+}
+.parent a div{
+	text-decoration: none;
+	color:white;
+	background-color: purple;
+}
+.parent a div:hover{
+	text-decoration: none;
+	background-color: lightblue;
+	color: green;
+}
+
+button:hover{
+	background-color: lightgreen;
+	color: red;
+	transform: scale(1.1); 
+	box-shadow: 2px 2px 10px 4px purple;
+}
+
+
+
+.parent1 a{
+	margin: 25px;
+}
+.pic2{
+	height: 50px;
+	width: 50px;
+    transition: transform 0.2s; 
+}
+.pic2:hover {
+    transform: scale(1.5); 
+	box-shadow: 2px 2px 100px 4px blue;
+}
+
+
+.child1{
+	/*border: 1px solid black;*/
+	border-radius: 10px;
+	width: 250px;
+	height: 50px;
+	padding-bottom: 10px;
+	text-align: center;
+	position: absolute;
+	right: 100px;
+	top: 0px;
+}
+.child2{
+	/*border: 1px solid black;*/
+	border-radius: 10px;
+	width: 250px;
+	height: 50px;
+	padding-bottom: 10px;
+	text-align: center;
+	position: absolute;
+	right: 100px;
+	top: 70px;
+}
+
+.child3{
+	/*border: 1px solid black;*/
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	padding: 20px;
+	text-align: center;
+	position: absolute;	
+	right: 520px;
+	top: 400px;
+}
+
+.child4{
+	/*border: 1px solid black;*/
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	padding: 20px;
+	text-align: center;
+	position: absolute;
+	right: 360px;
+	top: 400px;
+}
+
+.child5{
+	/*border: 1px solid black;*/
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	padding: 20px;
+	text-align: center;
+	position: absolute;
+	right: 200px;
+	top: 400px;
+}
+
+.child6{
+	/*border: 1px solid black;*/
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	padding: 20px;
+	text-align: center;
+	position: absolute;
+	right: 40px;
+	top: 400px;
+}
+
+
+ol li a{
+	text-decoration: none;
+	
+}
+
+.homebox{
+	/*border: 1px solid black;*/
+	width: 61px;
+	margin: auto;
+}
+
+#home{
+	padding: 10px;
+	/*margin-left: 720px;
+	margin-top: 20px;*/
+	transition: transform 0.2s;
+}
+
+#home a{
+	text-decoration: none;
+	font-weight: bold;
+}
+#home:hover{
+	background-color: green;
+	transform: scale(1.1); 
+	box-shadow: 2px 2px 80px 4px green;
+}
+
+#home:hover a{
+	background-color: green;
+	font-weight: bold;
+	color: white;
+	
+}
+.foot{
+	
+	text-align: center;
+	color: white;
+	}

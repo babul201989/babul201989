@@ -1,0 +1,328 @@
+
+html{
+    scroll-behavior: smooth;
+    }
+	
+body{
+	position: relative;
+	padding: 10px;
+	padding-left: 10px;	
+	overflow: auto;
+	
+}
+
+#video-background {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%; /* Set the minimum width and height to cover the entire viewport */
+      min-height: 100%;
+      width: auto; /* Ensure the video maintains its original aspect ratio */
+      height: auto;
+      z-index: -1000; /* Place the video behind all other elements */
+    }
+section{
+	/*border: 1px solid black;*/
+	/*background: linear-gradient(150deg,rgba(0, 255, 0, 0.30),rgba(0, 0, 255, 0.50));
+	height:920px;
+	padding: 10px;
+	margin: -18.3px;
+	position: relative;
+	overflow: auto;*/
+	
+}
+
+.div1 ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+}
+
+.div ul li a{
+	text-decoration: none;
+	color: white;
+}	
+
+header{
+	display: flex;	
+	
+}
+header h1 a, abbr{
+	text-decoration: none;
+	font-size: 70px;
+	color: #1FFDEC;
+}
+.topbar{
+	margin-right: auto;
+	margin-left: 50px;
+}
+header h1{
+	font-family: 'Orbitron', sans-serif;
+	font-family: 'Black Ops One', cursive;
+	width: 50%;	
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+#logo{
+	width:500px;
+	height:120px;
+	margin-right: 0px;	
+}
+.pic2{
+	height: 60px;
+	width: 60px;	
+}
+.tool{
+	/*border: 1px solid black;*/
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.tool h2{
+	margin: 10px;
+}
+.tool h2 a{
+	text-decoration: none;
+	color: black;		
+}
+
+.expert{
+	position: absolute;
+	right: 160px;
+	top: 360px;
+	transition: transform 0.2s; 
+}
+.expert:hover{
+	transform: scale(1.5); 
+	box-shadow: 2px 2px 80px 4px purple; 
+	
+}
+
+.gmail{
+	position: absolute;
+	right: 250px;
+	top: 160px;
+	transition: transform 0.2s; 
+}
+.gmail:hover{
+	transform: scale(1.2); 
+	box-shadow: 2px 2px 10px 4px purple;
+}
+
+.calendar{
+	position: absolute;
+	right: 130px;
+	top: 160px;
+	transition: transform 0.2s; 
+}
+.calendar:hover{
+	transform: scale(1.2); 
+	box-shadow: 2px 2px 10px 4px purple;
+	
+}
+
+.help1{
+	position: absolute;
+	right: 230px;
+	top: 260px;
+	transition: transform 0.2s; 
+}
+
+.help2{
+	position: absolute;
+	right: 120px;
+	top: 260px;
+	transition: transform 0.2s; 
+}
+
+.help1:hover{
+	transform: scale(1.2); 
+	box-shadow: 2px 2px 80px 4px purple; 
+	
+}
+.help2:hover{
+	transform: scale(1.2); 
+	box-shadow: 2px 2px 80px 4px purple; 
+	
+}
+
+footer{
+	/*border: 1px solid black;*/
+	width: 300px;
+	margin: auto;
+}
+.foot{
+	/*border: 1px solid black;*/
+	position: absolute;
+	bottom: 15px;
+	
+}
+.footpara{
+	/*border: 1px solid black;*/
+	color: white;
+	text-align: center;
+}
+.foot p{	
+	font-weight: bold;		
+}
+
+button{
+	background-color: lightblue;
+	border-radius: 50px;
+	padding: 20px 30px;
+	margin-left: ;
+	transition: transform 0.2s;
+}
+button b{
+	font-family: 'Orbitron', sans-serif;
+}
+button:hover{
+	background-color: lightgreen;
+	color: red;
+	transform: scale(1.1); 
+	box-shadow: 2px 2px 10px 4px purple;
+}
+.pic2{
+    transition: transform 0.2s; 
+}
+.pic2:hover {
+    transform: scale(1.5); 
+	box-shadow: 2px 2px 100px 4px blue;
+}
+
+.video{
+	/*border: 1px solid black;*/
+	width: 60%;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.video iframe{
+	margin: 20px;
+}
+
+.rotate-vert-center {
+	-webkit-animation: rotate-vert-center 3s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	        animation: rotate-vert-center 3s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+			/*border: 5px solid black;*/
+			width: 200px;
+			height: 80px;
+			position: fixed;
+			z-index: 1000;
+			right: 100px;
+			bottom: 30px;
+}
+
+@keyframes rotate-vert-center {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+.flip-scale-up-hor {
+	-webkit-animation: flip-scale-up-hor 0.8s linear both;
+	        animation: flip-scale-up-hor 0.8s linear both;
+}
+
+@keyframes flip-scale-up-hor{
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+}
+
+/*RESPONSIVENESS*/
+
+/* Tablet and mobile view */
+@media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .topbar {
+        font-size: 18px;
+    }
+    .pic2 {
+        width: 80px;
+        height: 80px;
+    }
+    .div1 {
+        width: 100%;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .tool h2 {
+        font-size: 16px;
+    }
+    .expert img {
+        width: 100px;
+        height: auto;
+    }
+    .gmail img,
+    .calendar img {
+        width: 40px;
+        height: 40px;
+    }
+    .help1 img,
+    .help2 img {
+        width: 60px;
+        height: 40px;
+    }
+    .video iframe {
+        width: 90%;
+        height: 200px;
+        margin: 10px auto;
+    }
+}
+
+/* Laptop view */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    /* Adjustments for laptop-sized screens */
+    .topbar {
+        font-size: 20px;
+    }
+    .pic2 {
+        width: 100px;
+        height: 100px;
+    }
+    .div1 {
+        width: 30%;
+        margin: 10px auto;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .tool h2 {
+        font-size: 18px;
+    }
+    .expert img {
+        width: 110px;
+        height: auto;
+    }
+    .gmail img,
+    .calendar img {
+        width: 50px;
+        height: 50px;
+    }
+    .help1 img,
+    .help2 img {
+        width: 70px;
+        height: 50px;
+    }
+    .video iframe {
+        width: 400px;
+        height: 250px;
+        margin: 10px;
+    }
+}
+
+

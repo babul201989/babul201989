@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo gallery</title>
+  <style>
+	body{
+	
+	background-image: url(https://www.nrdc.org/sites/default/files/styles/huge_16x9_100/public/2023-03/nrdc-nature-and-wildlife-1062342328.jpg.jpg?h=58c8a5e7&itok=r0rtlSiF);
+	background-size: cover;
+	
+	}
+	section{
+	/*border: 1px solid black;*/
+	display: flex;
+	justify-content: space-evenly;
+	
+	}
+	section a{
+	text-decoration: none;
+	color: black;
+	}
+	.sec1{
+	background-color: #20CEF0;
+	/*border: 1px solid black;*/
+	margin: 350px 100px;
+	padding: 50px;
+	border-radius: 50%;
+	transition: transform 0.2s;
+	font-weight: bolder;
+	font-size: 20px;
+	}
+	.sec1:hover{
+	background-color: #54F892;
+	color: black;
+	transform: scale(1.5);
+	}
+	.sec2{
+	padding: 50px 25px;
+	}
+	.foot{
+	color: white;
+	text-align: center;
+	}
+	
+	
+	.homebox{
+	/*border: 1px solid black;*/
+	width: 61px;
+	margin: auto;
+	
+	}
+	
+	.home{
+	padding: 10px;
+	transition: transform 0.2s;
+	}
+
+	.home a{
+	text-decoration: none;
+	font-weight: bold;
+	}
+	.home:hover{
+	background-color: green;
+	transform: scale(1.1); 
+	box-shadow: 2px 2px 80px 4px green;
+	}
+
+	.foot{
+	
+	text-align: center;
+	color: black;
+	}
+  </style>
+</head>
+<body>
+	<section>
+		<a href="https://drive.google.com/drive/folders/1X9PmqJZ0PVHGJSU1FeFLaTzcg_XnK69x" target="_blank" class="sec1 sec2"><div>Repository</div></a>
+		<a href="https://app.box.com/folder/0" target="_blank" class="sec1 sec3"><div>Box</div></a>
+		<a href="resources.html" class="sec1 sec4"><div>Edit</div></a>
+	</section>
+	<div class="homebox">
+
+	<button class="home"><a href="OneStopSolution.html">Home</a></button>
+	</div>	
+	<div class="foot">
+	<p>Copyright &copy; 2023 Babul. All rights reserved.</p>
+	</div>
+</body>
+</html>
